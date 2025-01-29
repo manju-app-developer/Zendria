@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zendria - Official Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="header">
+    <div class="logo">
+      <h1>Zendria</h1>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="menu-icon" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Background Image -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2 class="fade-in">Welcome to <span>Zendria's</span> Official Website</h2>
+      <p>Discover the latest music, lifestyle, and exclusive content from Zendria.</p>
+      <a href="https://youtube.com/@zendria_x?si=h-k-FrtmZDd2hx29" target="_blank" class="btn">Watch on YouTube</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content-section">
+    <h2 class="section-title">About Zendria</h2>
+    <p>Zendria is a passionate YouTuber who creates stunning music and inspiring content. Join the community and experience the magic of creativity.</p>
+  </section>
+
+  <!-- Image Slider with Smooth Transitions -->
+  <section id="slider" class="content-section">
+    <h2 class="section-title">Featured Content</h2>
+    <div class="slider">
+      <div class="slides">
+        <div class="slide"><img src="https://via.placeholder.com/1200x500" alt="Zendria Content 1"></div>
+        <div class="slide"><img src="https://via.placeholder.com/1200x500" alt="Zendria Content 2"></div>
+        <div class="slide"><img src="https://via.placeholder.com/1200x500" alt="Zendria Content 3"></div>
+      </div>
+      <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Videos Section with Responsive Layout -->
+  <section id="videos" class="content-section">
+    <h2 class="section-title">Latest Videos</h2>
+    <div class="video-gallery">
+      <div class="video-item">
+        <iframe width="100%" height="auto" src="https://youtu.be/Dxn4HbIZUFs?si=pClgHSThPL-fELxP" frameborder="0" allowfullscreen></iframe>
+        <p>Zara Zara Bahekta Hai</p>
+      </div>
+      <div class="video-item">
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/711Bnqk8uWs" frameborder="0" allowfullscreen></iframe>
+        <p>Video Title 2</p>
+      </div>
+      <div class="video-item">
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ETpTOZI7Z2k" frameborder="0" allowfullscreen></iframe>
+        <p>Video Title 3</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section">
+    <h2 class="section-title">Get in Touch</h2>
+    <p>For collaborations and inquiries, contact <a href="mailto:zendria@example.com">zendria@example.com</a>.</p>
+  </section>
+
+  <!-- Footer with Social Icons -->
+  <footer>
+    <p>&copy; 2025 Zendria. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://instagram.com/zendria_X" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://open.spotify.com/artist/5sA5wTwOisKbV53zaEmCQR?si=Uo7VdypvTdadBmXxvnDboQ" target="_blank"><i class="fab fa-spotify"></i></a>
+      <a href="https://youtube.com/@zendria_x?si=d-LoECwk2jkz8KDz" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
